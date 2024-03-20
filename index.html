@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>El Adivino de Link by Mat</title>
+</head>
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+    <div class="max-w-md p-8 bg-white rounded-lg shadow-lg">
+        <h1 class="text-2xl mb-6 text-center">Introduzca su link, Att Matt</h1>
+        <form id="form" class="mb-6">
+            <input type="text" id="enlaceInput" class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500" placeholder="Ingrese el enlace...">
+            <button type="submit" class="mt-2 w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Obtener Información</button>
+        </form>
+        <div id="resultado" class="text-center"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
